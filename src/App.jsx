@@ -22,10 +22,12 @@ const App = () => {
       <section id="Lịch Tập">
         <Services />
       </section>
-      <section id="Huấn Luyện Viên">
+      <div id="Huấn Luyện Viên">
         {/* <Parallax type="portfolio" /> */}
-        <Portfolio />
-      </section>
+        {/* <Portfolio id="Huấn Luyện Viên"/> */}
+      </div>
+        <Portfolio id="Huấn Luyện Viên"/>
+
       <section id="Liên Hệ">
         <Contact />
       </section>
