@@ -58,15 +58,17 @@ const Contact = () => {
         <motion.h1 variants={variants}>Làm việc cùng nhau nào</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>trungtamboxing@gmail.com</span>
+          <span>trungtamhuanluyenboxinghanoi@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Địa chỉ</h2>
-          <span>Mỹ Đình, Nam Từ Liêm, Hà Nội</span>
+          <span>Khán Đài B – Sân Vận Động Quốc Gia Mỹ Đình</span>
+          <div></div>
+          <span>Số 1, Đường Lê Đức Thọ, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Hà Nội</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Số liên lạc</h2>
-          <span>+84 8386 83868</span>
+          <span>+84 586 500 771</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">

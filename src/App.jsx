@@ -6,6 +6,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
+import Portfolio1 from "./components/portfolio1/Portfolio1";
 import Services from "./components/services/Services";
 
 const App = () => {
@@ -22,9 +23,10 @@ const App = () => {
       <section id="Lịch Tập">
         <Services />
       </section>
+      <div id="Thông Báo">
+      </div>
+        <Portfolio1 />
       <div id="Huấn Luyện Viên">
-        {/* <Parallax type="portfolio" /> */}
-        {/* <Portfolio id="Huấn Luyện Viên"/> */}
       </div>
         <Portfolio id="Huấn Luyện Viên"/>
 
